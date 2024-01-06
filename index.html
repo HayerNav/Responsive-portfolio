@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <!-- google font icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!-- local css file -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- php file -->
+  <?php
+    require("index.php");
+    ?>
+  <!-- ion icons import -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- local js file -->
+  <script src="script.js"></script>
+  <!-- home section starts -->
+  <section class="home" id="home">
+    <h1 class="hero-text"> hello, i'm <br> <span>Navdeep Singh</span></h1>
+    <p>this is my resume</p>
+  </section>
+  <!-- home section ends -->
+  <!-- header section starts -->
+  <header class="header">
+    <a><i class="menu material-icons"> menu </i></a>
+    <nav class="navbar">
+      <a href="#">home</a>
+      <a href="#portfolio">portfolio</a>
+      <a href="#resume">resume</a>
+      <a href="#about">about</a>
+      <a href="#contact">contact</a>
+    </nav>
+  </header>
+  <!-- header section ends -->
+  <!-- Load font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- The social media icon bar -->
+  <div class="icon-bar">
+    <a href="https://instagram.com/_.mjhail_.x?igshid=ZDdkNTZiNTM=" class="instagram"><i
+        class="fa fa-instagram"></i></a>
+    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+    <a href="#" class="github"><i class="fa fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/navdeep-singh-bb1230257" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+  </div>
+  <!-- portfolio section starts -->
+  <section class="portfolio" id="portfolio">
+    <h1 class="heading">featured <span>portfolio</span></h1>
+
+    <div class="box-container">
+      <div class="box">
+        <div class="image">
+          <img src="images/portfolio-1.jpeg" alt="" />
+          <div class="content">
+            <h2>project #1</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="images/portfolio-2.jpeg" alt="" />
+          <div class="content">
+            <h2>project #2</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="image">
+          <img src="images/portfolio-3.jpeg" alt="" />
+          <div class="content">
+            <h2>project #3</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- portfolio section ends -->
+  <!-- resume section starts-->
+  <section class="resume" id="resume">
+    <h1 class="heading">my <span>resume</span></h1>
+    <div class="col-container">
+      <div class="col">
+        <h2>education</h2>
+        <div class="box">
+          <span><i class="material-icons"> calender_today</i>Aug 2020 - May 2023</span>
+          <h3>Bachelors in computer science</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut perferendis quastenetur adipisci sunt!
+          </p>
+          <p class="university">Sant Longowal Institute of Engineering and Technology</p>
+        </div>
+        <div class="box">
+          <span><i class="material-icons"> calender_today</i>Aug 2017 - May 2020</span>
+          <h3>Diploma in computer science</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut perferendis quastenetur adipisci sunt!
+          </p>
+          <p class="university">Sant Longowal Institute of Engineering and Technology</p>
+        </div>
+        <div class="box">
+          <span><i class="material-icons"> calender_today</i>April 2016 - March 2017</span>
+          <h3>10th</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut perferendis quastenetur adipisci sunt!
+          </p>
+          <p class="university">Sutlej Public School</p>
+        </div>
+      </div>
+      <div class="col">
+        <h2>experience</h2>
+        <div class="box">
+          <span><i class="material-icons"> calendar_today </i> Jan 2019 - Jan 2020</span>
+          <h3>lead software developer</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut perferendis quastenetur adipisci sunt!
+          </p>
+          <p class="university">new york university</p>
+        </div>
+        <div class="box">
+          <span><i class="material-icons"> calendar_today </i> Jan 2020 - Jan 2021</span>
+          <h3>lead software developer</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut perferendis quastenetur adipisci sunt!
+          </p>
+          <p class="university">new york university</p>
+        </div>
+        <div class="box">
+          <span><i class="material-icons"> calendar_today </i> Jan 2021 - Jan 2022</span>
+          <h3>lead software developer</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ut perferendis quastenetur adipisci sunt!
+          </p>
+          <p class="university">new york university</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- resume section ends-->
+  <!-- about section starts -->
+  <section class="about" id="about">
+    <div class="box-container">
+      <div class="box">
+        <div class="image">
+          <img src="images/hero.jpg" alt="" />
+        </div>
+      </div>
+      <div class="box">
+        <h1 class="heading">about <span>me</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi illum atque accusamus cumque quod magnam,
+          culpa optio sapiente doloribus? Ea delectus saepe nobis optio mollitia, sequi atque esse rem tempora?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio nesciunt tempora exercitationem veniam dicta
+          sunt, voluptas libero iusto repellat dolorum sequi? Nihil consequatur expedita ut necessitatibus. Obcaecati,
+          debitis delectus! Voluptatibus?</p>
+        <a href="#" class="btn">hire me</a>
+        <a href="#" class="btn">download cv</a>
+      </div>
+    </div>
+  </section>
+  <!-- about section ends -->
+  <!-- services section starts -->
+  <section class="services" id="services">
+    <h1 class="heading">my <span>services</span></h1>
+    <div class="box-container">
+      <div class="box">
+        <i class="icon material-icons"> grid_view </i>
+        <h2>web design</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis debitis expedita
+          cupiditate quisquam voluptas minima doloribus sed quidem! Soluta, aliquid.
+        </p>
+        <a href="#" class="btn-2">learn more <i class="material-icons"> navigate_next </i></a>
+      </div>
+
+      <div class="box">
+        <i class="icon material-icons"> smart_display </i>
+        <h2>video editing</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis debitis expedita
+          cupiditate quisquam voluptas minima doloribus sed quidem! Soluta, aliquid.
+        </p>
+        <a href="#" class="btn-2">learn more <i class="material-icons"> navigate_next </i></a>
+      </div>
+
+      <div class="box">
+        <i class="icon material-icons"> computer </i>
+        <h2>python</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis debitis expedita
+          cupiditate quisquam voluptas minima doloribus sed quidem! Soluta, aliquid.
+        </p>
+        <a href="#" class="btn-2">learn more <i class="material-icons"> navigate_next </i></a>
+      </div>
+    </div>
+  </section>
+  <!-- services section ends -->
+
+  <!-- contact section starts -->
+  <section class="contact" id="contact">
+    <h1 class="heading">get <span>in touch</span></h1>
+    <div class="col-container">
+      <div class="col">
+        <h2>get in touch</h2>
+        <form action="https://getform.io/f/b2cb6300-af35-42d2-b0cb-bdfd2487483b" method="POST">
+          <input type="text" name="name" id="name" placeholder="your name" />
+          <input type="text" name="email" id="email" placeholder="your email" />
+          <input type="text" name="phone" id="phone" placeholder="your phone" />
+          <textarea type="text" placeholder="write a message" name="message" id="message" cols="20"
+            rows="10"></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+      <div class="col">
+        <h2>my contact details</h2>
+        <p>email</p>
+        <span>thisisnavi1499@gmail.com</span>
+        <br />
+        <br />
+        <p>phone</p>
+        <span>+91 972 919 7125</span>
+        <br />
+        <br />
+        <p>fax</p>
+        <span>+91 972 919 7125</span>
+        <br />
+        <br />
+        <p>address</p>
+        <span>
+          san francisco, CA <br />
+          4th floor 8 lower <br />
+          san francisco street, m1 50f
+        </span>
+      </div>
+    </div>
+  </section>
+  <!-- contact section ends -->
+  <!-- footer section starts -->
+  <section class="footer" id="footer">
+    <div class="socials">
+      <ion-icon name="logo-google"></ion-icon>
+      <ion-icon name="logo-twitter"></ion-icon>
+      <ion-icon name="logo-youtube"></ion-icon>
+      <ion-icon name="logo-linkedin"></ion-icon>
+    </div>
+  </section>
+  <!-- footer section ends -->
+</body>
+
+</html>
